@@ -1,1 +1,43 @@
+<meta charset= "UTF-8">
 
+
+<h1> Aplicativo AD </h1>
+
+<br>
+<br>
+
+
+<Script>
+
+function pulalinha () {
+
+document.write("<br>") ; 
+
+}
+
+function mostra (frase) {
+
+document.write(frase) ; 
+
+}
+
+
+var usuarioregistrado = "caio"
+var senharegistrada   = "1998"
+
+
+var usuariodigitado = prompt(" Digite seu usuário : ") ;  
+var senhadigitado = parseInt (prompt("Digite sua senha : ")); 
+
+
+if (usuarioregistrado == usuariodigitado && senharegistrada == senhadigitado ) {
+
+    mostra("Bem-vindo ao aplicado AD");
+
+} else {
+
+    mostra("Por favor , tente novamente "); 
+
+}
+
+</Script> 
